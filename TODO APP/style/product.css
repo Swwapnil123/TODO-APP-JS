@@ -1,0 +1,35 @@
+
+
+#product__div {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+#product__div > div {
+    margin: 2rem;
+}
+
+
+img {
+    height: 350px;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    background-color: grey;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+#product__div > div > div:nth-child(2) > div {
+    display: flex;
+    justify-content: center;
+}

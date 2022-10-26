@@ -1,0 +1,20 @@
+#breedImage__div {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1rem;
+}
+
+#breedImage__div > div {
+    margin: 1rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    height: 200px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+}

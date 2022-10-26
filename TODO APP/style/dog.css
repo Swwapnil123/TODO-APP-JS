@@ -1,0 +1,16 @@
+#breedName__div {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1rem;
+}
+
+#breedName__div > div {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
